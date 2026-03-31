@@ -1,0 +1,97 @@
+header {
+  background-image: url('https://www.lazzatspices.co.in/images/about_banner.jpg'); 
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size:cover;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  height: 210px;
+  width: 100%;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: rgb(8, 15, 8);
+  text-align: center;
+}
+
+h4 {
+  color: rgb(8, 16, 8);
+  text-align: center;
+}
+
+.navbar {
+  display:flex;
+  position:relative;
+  align-items:center;
+  justify-content:space-around;
+  top: 30px;
+  background: rgb(150, 98, 65);
+  background-blend-mode:normal;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  padding:inherit;
+  font-size:x-large;
+  font-style:italic;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.scroll-image {
+  position:relative;
+  width: 100%;
+  height: 100vh;
+  object-fit: contain;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  width: 15%;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  width: 100%;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.login-form a {
+  color: #0066cc;
+  text-decoration: none;
+}
